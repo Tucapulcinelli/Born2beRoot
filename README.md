@@ -135,6 +135,21 @@ enforce_for_root  Aplica as mesmas politicas ao Root.
 - **/etc/init.d/cron start/stop**
 
 Sintaxe do Cron
+  
+A sintaxe do Cron é bem simples:
+  
+-	Asterisco (*) – define todos os parâmetros de agendamento.
+-	Vírgula (,) – mantém duas ou mais horas de execução em um único comando.
+-	Hífen (-) – determina o intervalo da hora ao definir vários tempos de execução de único comando.
+-	Barra inclinada (/) – cria intervalos pré-determinados de tempo dentro de um intervalo de tempo específico.
+-	Last (L) – tem o propósito específico de determinar o último dia da semana do mês respectivo. Por exemplo, 3L significa a última quarta-feira.
+-	Weekday (W) – determina o dia da semana mais próximo de um tempo dado. Por exemplo, 1Wsignifica se o 1° for um sábado, o comando vai ser executado na segunda-feira (3°).
+-	Hash (#) – para determinar o dia da semana, seguido por um número que varia de 1 a 5. Por exemplo, 1#2 significa a segunda segunda-feira.
+- Ponto de interrogação (?) - serve pra deixar um espaço.
+  
+Você pode precisar configurar alguma ação com menos de um minuto, e pra isso precisa usar o **sleep segundos;** e mais de uma linha de comando pra alcançar o tempo desejado.
+ 
+
 
 
 
