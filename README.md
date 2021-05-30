@@ -1,6 +1,6 @@
 # Born2beRoot
 
-Projeto Consiste em criar um servidor ssh em maquina virtual, e você terá oportunidade de instalar o sistema operacional, configurar sudo, firewall, ssh de acordo com as regras do PDF. Além de descobrir o **Cron e o LVM**, ferramentas muito úteis.
+Projeto consiste em criar um servidor ssh em maquina virtual, e você terá oportunidade de instalar o sistema operacional, configurar sudo, firewall, ssh de acordo com as regras do PDF. Além de descobrir o **Cron e o LVM**, ferramentas muito úteis.
 
 ## Criando a VM
 
