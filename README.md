@@ -167,7 +167,25 @@ Como não é obrigatório o banner, pode usar o comando wall -n (que mostra ou e
 - Pegar o SHA1, usando shasum(Mac) /path_to_virtualbox/arquivo.vdi
 - colocar o numero do SHA1 no arquivo signature.txt e subir pra Vogsphere.
 
+## Study Resources
   
-
-
+https://debian-handbook.info/browse/pt-BR/stable/sect.apparmor.html
+https://qastack.com.br/ubuntu/236381/what-is-apparmor
+https://en.wikipedia.org/wiki/AppArmor
+https://www.certificacaolinux.com.br/logical-volume-manager-lvm-no-linux/
+https://e-tinet.com/linux/lvm/
+https://web.mit.edu/rhel-doc/3/rhel-sag-pt_br-3/ch-lvm-intro.html
+https://www.vivaolinux.com.br/artigo/Aptitude-uma-ferramenta-poderosa
+https://ricardo-reis.medium.com/aptitude-da639ec01e36
+https://qastack.com.br/unix/767/what-is-the-real-difference-between-apt-get-and-aptitude-how-about-wajig
+https://www.todoespacoonline.com/w/2015/10/su-sudo-e-sudoers-no-linux/
+https://www.tecmint.com/setup-ufw-firewall-on-ubuntu-and-debian/
+https://wiki.debian.org/Uncomplicated%20Firewall%20%28ufw%29
+https://servidordebian.org/pt/wheezy/security/firewall/ufw
+https://e-tinet.com/linux/firewall-com-ufw/
+https://www.devmedia.com.br/introducao-ao-shell-script-no-linux/25778
+https://www.hostinger.com.br/tutoriais/cron-job-guia
+https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt
+  
+  
 
