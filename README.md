@@ -134,7 +134,7 @@ enforce_for_root  Aplica as mesmas politicas ao Root.
 - **crontab -u username -l**
 - **/etc/init.d/cron start/stop**
 
-Sintaxe do Cron
+*Sintaxe do Cron*
   
 A sintaxe do Cron é bem simples:
   
@@ -147,9 +147,27 @@ A sintaxe do Cron é bem simples:
 -	Hash (#) – para determinar o dia da semana, seguido por um número que varia de 1 a 5. Por exemplo, 1#2 significa a segunda segunda-feira.
 - Ponto de interrogação (?) - serve pra deixar um espaço.
   
-Você pode precisar configurar alguma ação com menos de um minuto, e pra isso precisa usar o **sleep segundos;** e mais de uma linha de comando pra alcançar o tempo desejado.
- 
+-	Minute (Minuto) – é o minuto em que o comando vai rodar, variando de 0 a 59.
+-	Hour (Hora) – é a hora em que o comando será executado, variando de 0 a 23.
+-	Day of the month (Dia do mês) – é o dia do mês em que o comando vai rodar, variando de 1 a 31.
+-	Month (Mês) – é o mês em que o comando será executado, variando de 1 a 12.
+-	Day of the week (Dia da semana) – é o dia da semana que você quer que o comando rode, variando de 0 a 7.
 
+Você pode precisar configurar alguma ação com menos de um minuto, e pra isso precisa usar o **sleep segundos;** e mais de uma linha de comando pra alcançar o tempo desejado. Pesquise sobre isso.
+ 
+## SCRIPT
+
+Fazer um script em bash, onde pegue as informações solicitadas no PDF, e coloca na tela.
+Como não é obrigatório o banner, pode usar o comando wall -n (que mostra ou esconde as mensagens). Dê uma olhada no manual pra entender. Com os conhecimentos basicos do Basecamp/Piscina, você consegue fazer bem fácil. Preste atenção na filtragem dos dados, pra não pegar campos errados. Cheque seu script várias vezes, rodando como root e pelo cron pra ver se não há diferença. Lembre-se que o Cron não é um usuário, portanto ele não usa o *tty.*
+
+## SIGNATURE
+
+- Por último, resetar todas as senhas
+- **duplicar a VM. (Não faça clone por dentro do VirtualBox)
+- Pegar o SHA1, usando shasum(Mac) /path_to_virtualbox/arquivo.vdi
+- colocar o numero do SHA1 no arquivo signature.txt e subir pra Vogsphere.
+
+  
 
 
 
