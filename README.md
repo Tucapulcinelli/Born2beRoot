@@ -56,7 +56,8 @@ Para criar o grupo *user42* e adicionar o usuário ao grupo.
   
 ## SSH
 
-Verifique se o SSH ja esta instalado, caso não esteja, instale. (Usei openssh-server já vem no Debian)
+Verifique se o SSH ja esta instalado, caso não esteja, instale. (Usei openssh-server já vem no Debian). É muito importante que você saiba o que é SSH, como configurar e pra que serve. 
+  
 -	**dpkg -l | grep ssh**
 -	**sudo service ssh status**
 
@@ -67,7 +68,7 @@ Configurar o SSH, editando: */etc/ssh/sshd_config*
   
 ## UFW
 
-Instalar o UFW. Você precisa saber o que é, pra que serve e como configurar.
+Instalar o UFW, instalei pelo Aptitude. Você precisa saber o que é, pra que serve e como configurar.
   
 -	**sudo ufw status**
 -	**sudo ufw enable/disable**
@@ -167,7 +168,7 @@ Como não é obrigatório o banner, pode usar o comando wall -n (que mostra ou e
 - Pegar o SHA1, usando shasum(Mac) /path_to_virtualbox/arquivo.vdi
 - colocar o numero do SHA1 no arquivo signature.txt e subir pra Vogsphere.
 
-## Study Resources
+## Referências de estudo
   
 https://debian-handbook.info/browse/pt-BR/stable/sect.apparmor.html
 https://qastack.com.br/ubuntu/236381/what-is-apparmor
