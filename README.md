@@ -20,7 +20,7 @@ Using VirtualBox, you'll set aside a space to configure your VM, for that you sh
 - configurar o *Hostname (login42)*. / Configure the *Hostname (login42).*
 - *ROOT (login42)* e senha de acordo com a política de segurança definida no PDF. / *ROOT (login42)* and password according to the security policy defined in the PDF.
 - Escolher a opção LVM criptografado, pra formatar o disco. / Choose the Encrypted LVM option to format the disk.
-- Optar por partição HOME separada e usar uma senha de 20 caracteres pra criptografia. / Choose separate HOME partition and use a 20-character password for encryption.
+- Optar por partição HOME separada e usar uma senha de 20 caracteres pra criptografia. **Quando o particionamento finalizar, você vai poder excluir as partições LVM dentro da partição extendida criptografada e montar as partições da maneira que for desejada.** / Choose separate HOME partition and use a 20-character password for encryption. **When partitioning is finished, you will be able to delete the LVM partitions inside the encrypted extended partition and mount the partitions however you like.**
 - Instalar apenas o servidor SSH e utilitários de sistema padrão (Não pode nada de interface gráfica). / Install only SSH server and standard system utilities (NOT ALLOWED graphical interface).
 - GRUB, sim. E selecione o disco pra ter opções de inicialização. / GRUB, yes. And select the disk to have boot options.
 
