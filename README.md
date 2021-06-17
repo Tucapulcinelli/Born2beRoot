@@ -41,7 +41,7 @@ You may need to install SUDO on your system. Use apt or aptitude for that and th
 
 - **sudo visudo**
 - **passwd_tries=3**
-- **bad_message="<custom-error-message>"**
+- **badpass_message="<custom-error-message>"**
 - **logfile="/var/log/sudo/<filename>"**
 - **requiretty**
 - **secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"**
