@@ -199,24 +199,22 @@ As the banner is not mandatory, you can use the command wall -n (which shows or 
 - colocar o numero do SHA1 no arquivo signature.txt e subir pra Vogsphere. / Put the SHA1 number in the signature.txt file and upload it to Vogsphere.
 
 ## Referências de estudo / Study References
-  
-https://debian-handbook.info/browse/pt-BR/stable/sect.apparmor.html
-https://qastack.com.br/ubuntu/236381/what-is-apparmor
-https://en.wikipedia.org/wiki/AppArmor
-https://www.certificacaolinux.com.br/logical-volume-manager-lvm-no-linux/
-https://e-tinet.com/linux/lvm/
-https://web.mit.edu/rhel-doc/3/rhel-sag-pt_br-3/ch-lvm-intro.html
-https://www.vivaolinux.com.br/artigo/Aptitude-uma-ferramenta-poderosa
-https://ricardo-reis.medium.com/aptitude-da639ec01e36
-https://qastack.com.br/unix/767/what-is-the-real-difference-between-apt-get-and-aptitude-how-about-wajig
-https://www.todoespacoonline.com/w/2015/10/su-sudo-e-sudoers-no-linux/
-https://www.tecmint.com/setup-ufw-firewall-on-ubuntu-and-debian/
-https://wiki.debian.org/Uncomplicated%20Firewall%20%28ufw%29
-https://servidordebian.org/pt/wheezy/security/firewall/ufw
-https://e-tinet.com/linux/firewall-com-ufw/
-https://www.devmedia.com.br/introducao-ao-shell-script-no-linux/25778
-https://www.hostinger.com.br/tutoriais/cron-job-guia
-https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt
-  
-  
+
+ 1. https://debian-handbook.info/browse/pt-BR/stable/sect.apparmor.html
+ 1. https://qastack.com.br/ubuntu/236381/what-is-apparmor
+ 1. https://en.wikipedia.org/wiki/AppArmor
+ 1. https://www.certificacaolinux.com.br/logical-volume-manager-lvm-no-linux/
+ 1. https://e-tinet.com/linux/lvm/
+ 1. https://web.mit.edu/rhel-doc/3/rhel-sag-pt_br-3/ch-lvm-intro.html
+ 1. https://www.vivaolinux.com.br/artigo/Aptitude-uma-ferramenta-poderosa
+ 1. https://ricardo-reis.medium.com/aptitude-da639ec01e36
+ 1. https://qastack.com.br/unix/767/what-is-the-real-difference-between-apt-get-and-aptitude-how-about-wajig
+ 1. https://www.todoespacoonline.com/w/2015/10/su-sudo-e-sudoers-no-linux/
+ 1. https://www.tecmint.com/setup-ufw-firewall-on-ubuntu-and-debian/
+ 1. https://wiki.debian.org/Uncomplicated%20Firewall%20%28ufw%29
+ 1. https://servidordebian.org/pt/wheezy/security/firewall/ufw
+ 1. https://e-tinet.com/linux/firewall-com-ufw/
+ 1. https://www.devmedia.com.br/introducao-ao-shell-script-no-linux/25778
+ 1. https://www.hostinger.com.br/tutoriais/cron-job-guia
+ 1. https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt
 
